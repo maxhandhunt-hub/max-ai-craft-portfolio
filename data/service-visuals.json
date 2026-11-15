@@ -1,0 +1,72 @@
+[
+  {
+    "id": "neuroavatar",
+    "src": "assets/service-3d/neuroavatar/neuroavatar.webp",
+    "width": 1280,
+    "height": 801,
+    "alt": "Мужской AI-гуманоид и вертикальный формат",
+    "source": "assets/service-3d/neuroavatar/neuroavatar-source.png",
+    "sha256": "012bf70a025b45eaf82c651a392b997f55ba5784032bf730f825da9ee6a477f4",
+    "bytes": 71604
+  },
+  {
+    "id": "photoshoot",
+    "src": "assets/service-3d/photoshoot/photoshoot.webp",
+    "width": 1280,
+    "height": 801,
+    "alt": "Светлая виртуальная фотостудия",
+    "source": "assets/service-3d/photoshoot/photoshoot-source.png",
+    "sha256": "fc3252a32dd88400ab5b2993818e4b5b05a6b38e5afb6b2db00f98a5ee5cc97a",
+    "bytes": 43970
+  },
+  {
+    "id": "landing",
+    "src": "assets/service-3d/landing/landing.webp",
+    "width": 1280,
+    "height": 801,
+    "alt": "Пространственный макет лендинга",
+    "source": "assets/service-3d/landing/landing-source.png",
+    "sha256": "b607f1f1d5535765b3c539c2a84bd3b4bc5d90f8445d6ad3b8ccb2a39c6596af",
+    "bytes": 70458
+  },
+  {
+    "id": "product",
+    "src": "assets/service-3d/product/product.webp",
+    "width": 1280,
+    "height": 801,
+    "alt": "Товар и три визуальные карточки",
+    "source": "assets/service-3d/product/product-source.png",
+    "sha256": "ab6c860272abeb99bca8a0224d599cd2ad1ca4438596baa24fd3084f4bdccecd",
+    "bytes": 82792
+  },
+  {
+    "id": "presentation",
+    "src": "assets/service-3d/presentation/presentation.webp",
+    "width": 1280,
+    "height": 801,
+    "alt": "Объёмная система презентационных слайдов",
+    "source": "assets/service-3d/presentation/presentation-source.png",
+    "sha256": "986a74da1ff75d1424012c3663cc7d88f0c8a87aa583e733d166051dfe0bf1cd",
+    "bytes": 35154
+  },
+  {
+    "id": "video",
+    "src": "assets/service-3d/video/video.webp",
+    "width": 1280,
+    "height": 801,
+    "alt": "Телефон, раскадровка и монтажная шкала",
+    "source": "assets/service-3d/video/video-source.png",
+    "sha256": "86260a50414d2515c4fafe4c7d516407b472aaa6a709b9a81cc42d06d141e9fb",
+    "bytes": 74462
+  },
+  {
+    "id": "automation",
+    "src": "assets/service-3d/automation/automation.webp",
+    "width": 1280,
+    "height": 801,
+    "alt": "Форма, таблица, обработка и отчёт",
+    "source": "assets/service-3d/automation/automation-source.png",
+    "sha256": "4130a4c0fee5f5d728dab666b007be415ba14f66a0a59706f0367a4acd1b5b31",
+    "bytes": 77796
+  }
+]

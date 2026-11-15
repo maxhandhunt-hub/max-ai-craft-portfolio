@@ -1,0 +1,27 @@
+/* The visual layer owns only decorative imagery; content and portfolio retain their v43 layout. */
+.brand-thesis{margin:18px 0 0!important;color:#15345a!important;font-size:.78rem!important;font-weight:900;letter-spacing:.16em;line-height:1.5!important}
+.brand-thesis span{color:#3171dd}
+.hero{background:radial-gradient(circle at 78% 43%,#e3f1ff 0,transparent 37%),radial-gradient(circle at 22% 85%,#eefaff 0,transparent 39%),#f7f8fc}
+.hero-art{overflow:visible}
+.hero-halo{background:radial-gradient(circle,#d9eaff 0,#eef5ff 47%,transparent 72%);filter:blur(8px)}
+.hero-portrait{z-index:5;left:40%;top:14%;width:clamp(310px,27vw,495px);height:clamp(310px,27vw,495px);border:9px solid white;box-shadow:0 25px 72px rgba(37,64,102,.18)}
+.hero-humanoid{position:absolute;z-index:2;top:4%;right:-5%;width:48%;height:88%;object-fit:contain;object-position:center bottom;mix-blend-mode:multiply;mask-image:linear-gradient(#000 0 78%,transparent 100%);opacity:.9;pointer-events:none}
+.hero-brain{z-index:3;top:53%;left:45%;width:clamp(145px,16vw,270px);height:auto;aspect-ratio:1;mix-blend-mode:normal;clip-path:circle(48% at 50% 50%);border:0;box-shadow:0 18px 42px rgba(24,74,137,.13);filter:none}
+.orbit{z-index:0}
+.tool{z-index:6}
+.hero-art-label{z-index:7;right:11%;bottom:8%;padding:8px 12px;border-radius:99px;background:rgba(255,255,255,.8);color:#4a6b92}
+.cap-core{background:radial-gradient(circle,#e4f7ff 12%,#eef4ff 58%,transparent 74%)}
+.cap-core img{width:74%;height:auto;clip-path:circle(49% at 50% 50%);filter:drop-shadow(0 16px 24px rgba(37,87,150,.12))}
+.automation-visual{margin-top:10px;margin-bottom:55px;display:grid;place-items:center;min-height:280px;border:1px solid rgba(54,100,151,.1);border-radius:34px;background:linear-gradient(145deg,#fafdff,#eaf5ff);overflow:hidden}
+.automation-visual img{width:min(58%,540px);height:auto;mix-blend-mode:multiply}
+.final-stage{position:relative;isolation:isolate}
+.final-portal{position:absolute;z-index:-1;right:1%;top:1%;width:min(58vw,850px);height:100%;object-fit:contain;object-position:center;opacity:.34;pointer-events:none;mix-blend-mode:multiply}
+.final-copy{z-index:1}
+.contact-direct{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;padding:30px;border-radius:22px;background:#f2f8ff;border:1px solid var(--line)}
+.contact-direct a{font-size:clamp(1.2rem,2vw,1.8rem);font-weight:850;color:#184f94;text-decoration:none}
+.contact-direct a:hover{text-decoration:underline}
+.qr-box img{width:225px;max-height:none;height:auto;object-fit:contain}
+@media(max-width:900px){.hero-art{height:460px}.hero-portrait{top:11%;left:40%;width:min(55vw,360px);height:min(55vw,360px)}.hero-humanoid{right:5%;width:38%;height:82%;top:11%}.hero-brain{top:58%;left:47%;width:160px}.final-portal{width:70vw;right:-13%;opacity:.25}}
+@media(max-width:700px){.hero-art{width:min(100%,430px);height:315px;margin-top:10px}.hero-portrait{top:12%;left:39%;width:210px;height:210px;border-width:5px}.hero-humanoid{top:5%;right:-2%;width:39%;height:87%;opacity:.86}.hero-brain{top:58%;left:45%;width:105px}.hero-art-label{bottom:3%;right:2%;font-size:.52rem}.brand-thesis{font-size:.65rem!important;letter-spacing:.1em}.automation-visual{min-height:200px;margin-bottom:35px}.automation-visual img{width:min(100%,225px)}.final-portal{width:100%;height:70%;top:8%;right:-25%;opacity:.18}.contact-panel{grid-template-columns:1fr}}
+@media(max-width:390px){.hero-art{height:270px}.hero-portrait{width:190px;height:190px}.hero-humanoid{right:0;width:36%;height:84%}.hero-brain{width:88px;top:59%}}
+@media(prefers-reduced-motion:reduce){.hero-humanoid,.hero-brain,.final-portal,.automation-visual img{transform:none!important}.hero-humanoid{opacity:.86}.final-portal{opacity:.2}}
